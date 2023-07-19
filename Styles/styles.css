@@ -213,8 +213,23 @@ line-height: 45px;
    padding: 10px;
 }
 .games-corner{
+    display: flex;
     align-items: center;
     padding-left: 320px;
+}
+.write{ 
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-right: 10px;
+    color: #534C64;
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 30px; /* 150% */
+}
+.p4{
+    padding-left: 60px;
 }
 .online{
     color: #0B0223;
@@ -258,7 +273,7 @@ padding-right: 50px;
     justify-content: space-around;
     align-items: center;
     margin-top: 60px;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
 }
 
 .main-ban{
@@ -280,4 +295,39 @@ font-size: 18px;
 font-weight: 400;
 line-height: 30px; /* 166.667% */
 padding-left: 200px;
+}
+
+.option1{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    gap: 20px;
+    
+}
+
+.option2{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    gap: 20px;
+}
+li{
+    text-align: center;
+    text-decoration: solid;
+    font-size: 15px;
+    font-weight: bolder;
+}
+li:hover{
+    border: #FF42A5 solid 2px;
+    border-radius: 17px;
+}
+li > img{
+    width: 30px;
+}
+.option{
+    padding-bottom: 40px;
 }
