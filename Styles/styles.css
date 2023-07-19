@@ -72,11 +72,11 @@ font-weight: 500;
     
     text-align: center;
     text-transform: uppercase;
-    padding-left: 200px;
+    padding-left: 180px;
     
 }
 .banner-2{
-    padding-left: 300PX;
+    padding-left: 280PX;
 }
 .play{
     color: #0B0223;
@@ -315,13 +315,13 @@ padding-left: 200px;
     padding-bottom: 30px;
     gap: 20px;
 }
-li{
+.option-li{
     text-align: center;
     text-decoration: solid;
     font-size: 15px;
     font-weight: bolder;
 }
-li:hover{
+.option-li:hover{
     border: #FF42A5 solid 2px;
     border-radius: 17px;
 }
@@ -330,4 +330,58 @@ li > img{
 }
 .option{
     padding-bottom: 40px;
+}
+
+footer{
+    background-color: #0d0820;
+}
+
+.logo-img2{
+    width: 50px;
+}
+h5{
+    font-size: 19px;
+}
+.footor-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+.footor-li{
+    display: inline;
+    gap: 60px;
+    align-items: center;
+    padding-left: 160px;
+    color: #ffdef3;
+    border: 2px;
+    cursor: pointer;
+    padding-bottom: 30px;
+}
+.media{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 20px;
+    cursor: pointer;
+    padding-bottom: 30px;
+}
+.terms{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    padding-left: 130px;
+    color: #ffdef3;
+    border: 2px;
+    cursor: pointer;
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 14px;
 }
