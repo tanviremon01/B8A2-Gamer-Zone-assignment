@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+padding-top: 20px;
+padding-bottom: 20px;
+}
+a{
+ text-decoration: solid;
+}
+a:hover{
+    background-color: #ffdef3;
+
+}
+#social{
+    border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+}
+i:hover{
+    cursor: pointer;
+}
+.logo-img{
+ width:100px; height: auto;
+ padding-top: 9px;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+.menu > ul{
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
+    gap: 20px;
+
+    color: #3C354F;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 500;
+   
+}
+.menu{ 
+    padding-left: 600px;
+}
+.banner{
+   background-color: #FFF;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 20px;
+   background-image: url('../images/Group\ 14.png');
+  
+
+}
+
+
+
+.banner-1{
+    
+    text-align: center;
+    text-transform: uppercase;
+    padding-left: 200px;
+    
+}
+.banner-2{
+    padding-left: 300PX;
+}
+.play{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 600;
+}
+.goat{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-weight: 800;
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+ 
+
+.button > .btn-1 , .btn-2{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+}
+.btn-1{
+    background-color: #FF42A5;
+    color: #FFF;
+}
+.btn-2{
+    background-color: #4EC5F7;
+    color: #FFF;
+}
+.btn-1 , .btn-2:hover{
+    cursor: pointer;
+}
+.service{
+    color: #534C64;
+font-family: Work Sans;
+font-size: 15px;
+text-align: left;
+padding-top: 20px;
+padding-bottom: 15px;
+}
+
+
+
+.body-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 80px;
+   padding: 150px;
+   background-color: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+   padding-top: 0px;
+}
+
+.body-write-1{
+   text-align: right;
+text-align: right;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+
+.gamer{
+text-align: right;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.An{
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.btn-3{
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+color: #FFF;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+.btn-3:hover{
+    cursor: pointer;
+}
+.our{
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 45px; /* 187.5% */
+}
+.unleash{
+    color: #534C64;
+font-family: Work Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 45px;
+}
+
+.body-2{
+    padding-bottom: 20px;
+}
+.games-title{
+    text-align: center;
+}
+
+    
+.gc{
+    width: 200px;
+    display: inline;
+   padding: 10px;
+}
+.games-corner{
+    align-items: center;
+    padding-left: 320px;
+}
+.online{
+    color: #0B0223;
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 700;
+}
+.fun{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 700;
+}
+.A{
+    color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+
+
+
+.play{
+    color: #0B0223;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+text-align: right;
+line-height: 60px; /* 125% */
+padding-right: 50px;
+}
+
+.body-3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+    padding-bottom: 100px;
+}
+
+.main-ban{
+    width: 400px;
+    padding-right: 190px;
+}
+
+.sub{
+    width: 160px;
+    position: absolute;
+    padding-top: 260px;
+
+}
+.B{
+    color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+padding-left: 200px;
+}
