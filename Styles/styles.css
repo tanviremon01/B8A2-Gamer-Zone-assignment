@@ -385,3 +385,30 @@ h5{
     color: #FFF;
     font-size: 14px;
 }
+
+@media screen and (max-width:576px) {
+    nav{
+     flex-direction: column;
+    }
+    .logo{
+        flex-direction: column;
+    }
+    .menu > ul{
+        flex-direction: column;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .body-1{
+        flex-direction: column;
+    }
+    .games-corner{
+        flex-direction: column;
+    }
+    .body-3{
+        flex-direction: column;
+    }
+    .footor-logo{
+        flex-direction: column;
+    }
+}
